@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class Lion {
     private final boolean hasMane;
     private final Feline feline;
@@ -24,7 +22,7 @@ public class Lion {
         return feline.getKittens();
     }
 
-    public List<String> getFood() throws Exception {
-        return feline.eatMeat();
+    public String getFood() {
+        return "Мясо";
     }
 }
