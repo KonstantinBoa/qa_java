@@ -1,4 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-qa_java,default,Feline,16,9,0,0,1,3,1,3,1,3
-qa_java,default,Cat,0,12,0,0,0,5,0,3,0,3
-qa_java,default,Lion,0,35,0,4,0,9,0,6,0,4
+qa_java,default,Animal,4,3,0,0,2,1,2,1,2,1
+qa_java,default,Feline,16,13,0,0,1,5,1,5,1,5
+qa_java,default,Cat,0,7,0,0,0,3,0,3,0,3
+qa_java,default,Lion,0,36,0,4,0,11,0,6,0,4

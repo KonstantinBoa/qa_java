@@ -1,18 +1,12 @@
+public class Cat extends Animal implements Predator {
 
-import java.util.List;
-
-public class Cat {
-    private final Feline feline;
-
-    public Cat(Feline feline) {
-        this.feline = feline;
-    }
-
+    @Override
     public String getSound() {
         return "Мяу";
     }
 
-    public List<String> getFood() throws Exception {
-        return feline.eatMeat();
+    @Override
+    public String getFood() {
+        return "Молоко";
     }
 }
